@@ -56,9 +56,15 @@ function Hero() {
           With a passion for developing modern React web apps for commercial
           businesses.
         </p>
-        <a href='https://drive.google.com/file/d/1-y01EOkfutE3IsURuqWPSz5enuaSV4Sj/view?usp=drivesdk'>
-          <button className="hover">Resume</button>
-        </a>
+        <button
+         className="hover"
+          onClick={() => {
+            navigator.clipboard.writeText("riteksharmachd@gmail.com");
+          alert("Email copied to clipboard!");
+            }}
+>
+  Copy Email
+</button>
       </div>
     </section>
   );
