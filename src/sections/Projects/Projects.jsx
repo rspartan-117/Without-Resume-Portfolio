@@ -6,7 +6,7 @@ import ProjectCard from '../../common/ProjectCard';
 import weather from '../../assets/weather.webp';
 import Dashboard from '../../assets/Dashboard.webp';
 import zentry from '../../assets/zentry.webp';
-import livewrite from '../../assets/Livewrite.webp';
+import livedocs from '../../assets/Livedocs.webp';
 import broodl from '../../assets/broodl.webp';
 
 
@@ -29,6 +29,13 @@ function Projects() {
           h3="Zentry"
           p1="Gaming Website"
           p2="Gsap, React"
+        />
+          <ProjectCard
+          src={livedocs}
+          link="https://live-docs-two-smoky.vercel.app/"
+          h3="LiveDocs"
+          p1="Collaboration Website"
+          p2="Firebase, React, Typescript"
         />
         <ProjectCard
           src={viberr}
@@ -58,13 +65,7 @@ function Projects() {
           p1="Modern Landing Page"
           p2="React, Typescript, TailwindCSS"
         />
-          <ProjectCard
-          src={livewrite}
-          link="https://livewrite.vercel.app/"
-          h3="LiveWrite"
-          p1="Collaboration Website"
-          p2="Firebase, React, Typescript"
-        />
+        
         <ProjectCard
           src={shoe}
           link="https://nike-dashboard-page.netlify.app"

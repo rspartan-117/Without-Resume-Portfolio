@@ -16,15 +16,15 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="CSS" />
         <SkillList src={checkMarkIcon} skill="JavaScript" />
         <SkillList src={checkMarkIcon} skill="TypeScript" />
-        <SkillList src={checkMarkIcon} skill="Node" />
+        <SkillList src={checkMarkIcon} skill="Nodejs" />
       </div>
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="React" />
         <SkillList src={checkMarkIcon} skill="Nextjs" />
-        <SkillList src={checkMarkIcon} skill="Shadcn" />
-        <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
         <SkillList src={checkMarkIcon} skill="React Native" />
+        <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
+        <SkillList src={checkMarkIcon} skill="Shadcn" />
       </div>
       <hr />
       <div className={styles.skillList}>
