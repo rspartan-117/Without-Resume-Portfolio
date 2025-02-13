@@ -8,11 +8,11 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate', // Auto updates the service worker
       manifest: {
-        name: 'My Vite PWA',
-        short_name: 'VitePWA',
-        description: 'A React PWA using Vite',
-        theme_color: '#ffffff',
-        background_color: '#ffffff',
+        name: 'Portfolio',
+        short_name: 'Portfolio',
+        description: 'PWA for Portfolio',
+        theme_color: '#000000',
+        background_color: '#000000',
         display: 'standalone',
         icons: [
           {
