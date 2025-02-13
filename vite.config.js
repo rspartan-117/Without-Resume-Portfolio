@@ -16,9 +16,9 @@ export default defineConfig({
         display: 'standalone',
         icons: [
           {
-            src: '/pwa-icon-192.webp',
+            src: '/icon.png',
             sizes: '192x192',
-            type: 'image/webp',
+            type: 'image/png',
           }
         ],
       },
